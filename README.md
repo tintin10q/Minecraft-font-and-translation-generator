@@ -37,7 +37,7 @@ The program scans the json and creates a font with that setup for each item in f
 The $ is replaced with the file name.
 
 "file": is the name of the image file,
-"name": is how the character will be named in the translation file.
+"name": is how the character will be named in the translation file. (Can only have [0-9.a-Z] otherwise it will not translate)
 
 A new unicode is asigned for each font. The first unicode's is \uE001 you can change this in the
 .py version on line 30.
