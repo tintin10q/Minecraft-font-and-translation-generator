@@ -10,14 +10,15 @@ There is an example "generate_font_data.json" included. Here are also 3 examples
   {
     "type": "bitmap",
     "file": "namespace:numbers/$.png",
+    "name": "low_numbers.$",
     "ascent": -12,
     "height": 14,
-    "file_names": [0,1,2,3,4,5,6,7,8,9
-    ]
+    "file_names": [0,1,2,3,4,5,6,7,8,9]
   },
   {
     "type": "bitmap",
     "file": "namespace:numbers/$.png",
+    "name": "numbers.$",
     "ascent": -12,
     "height": 14,
     "file_names": [0,1,2,3,4,5,6,7,8,9]
@@ -25,6 +26,7 @@ There is an example "generate_font_data.json" included. Here are also 3 examples
   {
     "type": "bitmap",
     "file": "namespace:$.png",
+    "name": "names.$",
     "ascent": -12,
     "height": 14,
     "file_names": ["Quinten","Cabo"]
@@ -33,6 +35,9 @@ There is an example "generate_font_data.json" included. Here are also 3 examples
 ```
 The program scans the json and creates a font with that setup for each item in file_names. 
 The $ is replaced with the file name
+
+"file": is the name of the image file
+"name": is how the character will be named in the translation file
 
 A new unicode is asigned for each font. The first unicode's is \uE001 you can change this in the 
 .py version on line 30 

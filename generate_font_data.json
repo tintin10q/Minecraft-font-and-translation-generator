@@ -2,52 +2,25 @@
   {
     "type": "bitmap",
     "file": "namespace:numbers/$.png",
+    "name": "low_numbers.$",
     "ascent": -12,
     "height": 14,
-    "file_names": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ]
+    "file_names": [0,1,2,3,4,5,6,7,8,9]
+  },
+  {
+    "type": "bitmap",
+    "file": "namespace:numbers/$.png",
+    "name": "numbers.$",
+    "ascent": -12,
+    "height": 14,
+    "file_names": [0,1,2,3,4,5,6,7,8,9]
   },
   {
     "type": "bitmap",
     "file": "namespace:$.png",
-    "ascent": 4,
+    "name": "names.$",
+    "ascent": -12,
     "height": 14,
-    "file_names": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ]
-  },
-  {
-    "type": "bitmap",
-    "file": "namespace:characters/$.png",
-    "ascent": 35,
-    "height": 65,
-    "file_names": [
-      "alex",
-      "arthur",
-      "erika",
-      "james",
-      "samantha",
-      "samuel",
-      "sera"
-    ]
+    "file_names": ["quinten","cabo"]
   }
 ]

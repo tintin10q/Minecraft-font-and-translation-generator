@@ -66,17 +66,20 @@ for pack in data:
         uni_character["file"] = uni_character["file"].replace("$", str(info))
         uni_character["chars"] = [unicode_chain.generate_next_hex()]
         uni_character.pop("file_names")
-        loose_data.append(uni_character)
-        tranlate_name = uni_character["file"]
-        # Strip the name
-        tranlate_name = re.sub(r".*:","",tranlate_name)
-        tranlate_name = re.sub(r"\.png","",tranlate_name)
-        tranlate_name = re.sub(r"/",".",tranlate_name)
-        tranlate_name = str(tranlate_name)
+        try:
+            tranlate_name = str(uni_character["name"])
+        except:
+            print("Error: No name found in json for {}",format(unicode_character["file"]))
+            input("Press enter to exit...")
+            exit()
+        tranlate_name = re.sub(r"\$",str(info),tranlate_name)
         # Check if the name is in the json if it is in the json keep adding _ until it is not anymore in the json
         while tranlate_name in translation_json:
             tranlate_name = "_"+tranlate_name
         translation_json[tranlate_name] = str("".join(uni_character["chars"]))
+
+        uni_character.pop("name")
+        loose_data.append(uni_character)
 
 # Get all the data in the providers list
 for data in loose_data:
