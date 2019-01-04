@@ -48,4 +48,5 @@ Negative spaces are included
 -------------------
 Negative spaces by AmberW#4615 are included with the generation and the translation file needed for
 negative spaces is also included.
+Credit: https://discordapp.com/channels/154777837382008833/157097006500806656/486915350084976640
 
