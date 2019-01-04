@@ -4,7 +4,7 @@ A program that generates a default.json and a translations file (en_us.json) fro
 How to use
 -----------------------
 Put your input in a file called "generate_font_data.json" this file should be in the same folder as the executable
-There is an example "generate_font_data".json included
+There is an example "generate_font_data.json" included. Here are also 3 examples:
 ```json
 [
   {
