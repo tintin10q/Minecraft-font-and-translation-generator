@@ -33,7 +33,7 @@ There is an example "generate_font_data.json" included. Here are also 3 examples
 ```
 The program scans the json and creates a font with that setup for each item in file_names.
 The $ is replaced with the file name
-Running the example will make way more clear then me trying to explain it
+Running the example will make it way more clear then me trying to explain it
 
 Negative spaces are included
 -------------------
