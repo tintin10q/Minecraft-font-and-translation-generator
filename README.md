@@ -31,8 +31,11 @@ There is an example "generate_font_data.json" included. Here are also 3 examples
   }
 ]
 ```
-The program scans the json and creates a font with that setup for each item in file_names.
+The program scans the json and creates a font with that setup for each item in file_names. 
 The $ is replaced with the file name
+
+A new unicode is asigned for each font. The unicode's start with \uE001 you can change this in the 
+.py version on line 30 
 Running the example will make it way more clear then me trying to explain it
 
 Negative spaces are included
