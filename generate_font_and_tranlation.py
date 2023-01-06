@@ -1,5 +1,5 @@
 '''
-Author: Quinten Cabo (tintin10q@hotmail.com, Quinten#4772)
+Author: tintin10q@hotmail.com
 A program that generates a default.json and a translations file from another smaller file
 '''
 
